@@ -1,7 +1,4 @@
 {
-  "aliases": {
-    "emails-queue-s5": "julien-its/emails-queue-s5"
-  },
   "recipes": {
     "julien-its/emails-queue-s5": [
       "dev-master",
