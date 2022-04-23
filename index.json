@@ -1,6 +1,7 @@
 {
   "recipes": {
     "julien-its/emails-queue-s5": [
+      "dev",
       "dev-master",
       "2.0"
     ]
