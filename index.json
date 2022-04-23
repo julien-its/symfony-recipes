@@ -1,0 +1,18 @@
+{
+  "aliases": {
+    "emails-queue-s5": "julien-its/emails-queue-s5"
+  },
+  "recipes": {
+    "julien-its/emails-queue-s5": [
+      "dev-master",
+      "2.0"
+    ]
+  },
+  "branch": "master",
+  "is_contrib": true,
+  "_links": {
+    "repository": "https://github.com/julien-its/emails-queue-s5",
+    "origin_template": "{package}:{version}@github.com/julien-its/symfony-recipes:master",
+    "recipe_template": "https://api.github.com/repos/julien-its/symfony-recipes/contents/{package_dotted}.{version}.json"
+  }
+},
