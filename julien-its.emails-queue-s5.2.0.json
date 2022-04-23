@@ -3,7 +3,7 @@
     "julien-its/emails-queue-s5": {
       "manifest": {
         "bundles": {
-          "JulienIts\\EmailsQueueBundle": [
+          "JulienIts\\EmailsQueueBundle\\EmailsQueueBundle": [
             "all"
           ]
         },
@@ -25,7 +25,7 @@
           "executable": false
         }
       },
-      "ref": "2ba3f6a84dbb06a8af2fadeca62d7ed11a2ffa17"
+      "ref": "2ba3f6a84dbb06a8af2fadeca62d7ed11a2ffa18"
     }
   }
 }
