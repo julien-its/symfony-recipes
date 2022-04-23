@@ -11,6 +11,9 @@
           "EMAILS_QUEUE_MODE":"prod",
           "EMAILS_QUEUE_DEBUG_TO":"",
           "EMAILS_QUEUE_DEBUG_CC":""
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
         }
       },
       "files": {
@@ -25,7 +28,7 @@
           "executable": false
         }
       },
-      "ref": "2ba3f6a84dbb06a8af2fadeca62d7ed11a2ffa20"
+      "ref": "2ba3f6a84dbb06a8af2fadeca62d7ed11a2ffa21"
     }
   }
 }
