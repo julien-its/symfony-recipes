@@ -1,7 +1,6 @@
 {
   "recipes": {
     "julien-its/emails-queue-s5": [
-      "1.0",
       "2.0"
     ]
   },

@@ -20,15 +20,15 @@
         "config/packages/emails_queue.yaml": {
           "contents": [
             "emails_queue:",
-            "    mode:'%env(EMAILS_QUEUE_MODE)%'",
-            "    debug_to:'%env(EMAILS_QUEUE_DEBUG_TO)%'",
-            "    debug_cc:'%env(EMAILS_QUEUE_DEBUG_CC)%'",
+            "    mode: '%env(EMAILS_QUEUE_MODE)%'",
+            "    debug_to: '%env(EMAILS_QUEUE_DEBUG_TO)%'",
+            "    debug_cc: '%env(EMAILS_QUEUE_DEBUG_CC)%'",
             ""
           ],
           "executable": false
         }
       },
-      "ref": "2ba3f6a84dbb06a8af2fadeca62d7ed11a2ffa22"
+      "ref": "2ba3f6a84dbb06a8af2fadeca62d7ed11a2ffa23"
     }
   }
 }
