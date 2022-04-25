@@ -2,6 +2,9 @@
   "recipes": {
     "julien-its/emails-queue-s5": [
       "2.0"
+    ],
+    "julien-its/emails-queue-s6": [
+      "2.0"
     ]
   },
   "branch": "master",
