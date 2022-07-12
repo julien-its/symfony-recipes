@@ -8,7 +8,8 @@
           ]
         },
         "env": {
-          "UPLOAD_DIR":"public/uploads/fpm"
+          "FPM_UPLOAD_DIR":"public/uploads/fpm",
+          "FPM_MAX_FILE_SIZE":"100"
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
