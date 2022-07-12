@@ -24,9 +24,17 @@
             ""
           ],
           "executable": false
+        },
+        "config/routes/files_picker_manager.yaml": {
+          "contents": [
+            "files_picker_manager:",
+            "    resource: '@FilesPickerManagerBundle/Resources/config/routes.yaml'"
+            ""
+          ],
+          "executable": false
         }
       },
-      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa10"
+      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa11"
     }
   }
 }
