@@ -8,7 +8,7 @@
           ]
         },
         "env": {
-          "FPM_UPLOAD_DIR":"public/uploads/fpm",
+          "FPM_UPLOAD_DIR":"'%kernel.project_dir%/public/uploads/fpm",
           "FPM_MAX_FILE_SIZE":"100"
         },
         "copy-from-recipe": {
@@ -34,7 +34,7 @@
           "executable": false
         }
       },
-      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa11"
+      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa12"
     }
   }
 }
