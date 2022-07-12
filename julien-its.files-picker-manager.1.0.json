@@ -28,7 +28,7 @@
         "config/routes/files_picker_manager.yaml": {
           "contents": [
             "files_picker_manager:",
-            "    resource: '@FilesPickerManagerBundle/Resources/config/routes.yaml'"
+            "    resource: '@FilesPickerManagerBundle/Resources/config/routes.yaml'",
             ""
           ],
           "executable": false
