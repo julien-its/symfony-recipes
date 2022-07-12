@@ -5,6 +5,9 @@
     ],
     "julien-its/emails-queue-s6": [
       "2.0"
+    ],
+    "julien-its/files-picker-manager": [
+      "1.0"
     ]
   },
   "branch": "master",

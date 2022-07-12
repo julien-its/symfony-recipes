@@ -1,0 +1,31 @@
+{
+  "manifests": {
+    "julien-its/files-picker-manager": {
+      "manifest": {
+        "bundles": {
+          "JulienIts\\FilesPickerManagerBundle\\FilesPickerManagerBundle": [
+            "all"
+          ]
+        },
+        "env": {
+          "UPLOAD_DIR":"public/uploads/fpm"
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/files_picker_manager.yaml": {
+          "contents": [
+            "files_picker_manager:",
+            "    upload_dir: '%env(FPM_UPLOAD_DIR)%'",
+            "    max_file_size: '%env(FPM_MAX_FILE_SIZE)%'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa10"
+    }
+  }
+}
