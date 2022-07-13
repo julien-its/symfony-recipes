@@ -19,7 +19,7 @@
         "config/packages/files_picker_manager.yaml": {
           "contents": [
             "files_picker_manager:",
-            "    upload_dir: '%env(FPM_UPLOAD_DIR)%'",
+            "    upload_dir: '%env(resolve:FPM_UPLOAD_DIR)%'",
             "    max_file_size: '%env(FPM_MAX_FILE_SIZE)%'",
             "",
             "twig:",
@@ -38,7 +38,7 @@
           "executable": false
         }
       },
-      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa14"
+      "ref": "3ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa15"
     }
   }
 }
