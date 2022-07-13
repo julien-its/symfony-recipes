@@ -21,6 +21,10 @@
             "files_picker_manager:",
             "    upload_dir: '%env(FPM_UPLOAD_DIR)%'",
             "    max_file_size: '%env(FPM_MAX_FILE_SIZE)%'",
+            "",
+            "twig:",
+            "    form_themes:",
+            "        - '@FilesPickerManager/form/custom-types.html.twig'",
             ""
           ],
           "executable": false
