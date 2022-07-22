@@ -1,0 +1,46 @@
+{
+  "manifests": {
+    "jits/files-picker-manager": {
+      "manifest": {
+        "bundles": {
+          "Jits\\FilesPickerManagerBundle\\FilesPickerManagerBundle": [
+            "all"
+          ]
+        },
+        "env": {
+          "FPM_UPLOAD_DIR":"%kernel.project_dir%/public/uploads/fpm",
+          "FPM_WEB_DIR":"/uploads/fpm",
+          "FPM_MAX_FILE_SIZE":"100"
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/files_picker_manager.yaml": {
+          "contents": [
+            "files_picker_manager:",
+            "    upload_dir: '%env(resolve:FPM_UPLOAD_DIR)%'",
+            "    web_dir: '%env(FPM_WEB_DIR)%'",
+            "    max_file_size: '%env(FPM_MAX_FILE_SIZE)%'",
+            "",
+            "twig:",
+            "    form_themes:",
+            "        - '@FilesPickerManager/form/custom-types.html.twig'",
+            ""
+          ],
+          "executable": false
+        },
+        "config/routes/files_picker_manager.yaml": {
+          "contents": [
+            "files_picker_manager:",
+            "    resource: '@FilesPickerManagerBundle/Resources/config/routes.yaml'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "4ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa10"
+    }
+  }
+}
