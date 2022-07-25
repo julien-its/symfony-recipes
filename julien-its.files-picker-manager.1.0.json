@@ -10,6 +10,8 @@
         "env": {
           "FPM_UPLOAD_DIR":"%kernel.project_dir%/public/uploads/fpm",
           "FPM_WEB_DIR":"/uploads/fpm",
+          "FPM_ALLOWED_FILES_EXTENSIONS":"image/*,pdf,xls,xlsx,doc,docx,ppt,pptx,zip,rar",
+          "FPM_ALLOWED_PHOTOS_EXTENSIONS":"image/*",
           "FPM_MAX_FILE_SIZE":"100"
         },
         "copy-from-recipe": {
@@ -22,6 +24,8 @@
             "files_picker_manager:",
             "    upload_dir: '%env(resolve:FPM_UPLOAD_DIR)%'",
             "    web_dir: '%env(FPM_WEB_DIR)%'",
+            "    allowed_files_extensions: '%env(FPM_ALLOWED_FILES_EXTENSIONS)%'",
+            "    allowed_photos_extensions: '%env(FPM_ALLOWED_PHOTOS_EXTENSIONS)%'",
             "    max_file_size: '%env(FPM_MAX_FILE_SIZE)%'",
             "",
             "twig:",
