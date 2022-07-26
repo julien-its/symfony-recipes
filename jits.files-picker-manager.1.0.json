@@ -10,7 +10,7 @@
         "env": {
           "FPM_UPLOAD_DIR":"%kernel.project_dir%/public/uploads/fpm",
           "FPM_WEB_DIR":"/uploads/fpm",
-          "FPM_ALLOWED_FILES_EXTENSIONS":"image/*,pdf,xls,xlsx,doc,docx,ppt,pptx,zip,rar",
+          "FPM_ALLOWED_FILES_EXTENSIONS":"image/*,archive/*,audio/*,video/*,pdf,xls,xlsx,doc,docx,ppt,pptx,txt",
           "FPM_ALLOWED_PHOTOS_EXTENSIONS":"image/*",
           "FPM_MAX_FILE_SIZE":"2M"
         },
@@ -44,7 +44,7 @@
           "executable": false
         }
       },
-      "ref": "4ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa12"
+      "ref": "4ba3f6a84dbc06a8af2fadeca62d7ed11a2ffa13"
     }
   }
 }
